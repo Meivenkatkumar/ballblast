@@ -1,11 +1,19 @@
-<!DOCTYPE html>
 <html>
-<link rel="stylesheet" type="text/css" href="canon.css">
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="./canon.css">
 <head>
-	<title></title>
+	<title>Ball Blast</title>
 </head>
-<body>
+<body id="moments">
+	<div id="cover">
+    <p style="font-size: 40px;">BALL BLAST</p>
+    <input type="button" value="EASY" id="PLAY1" onclick="set1(),play()"/>
+    <input type="button" value="NORMAL" id="PLAY2" onclick="set2(),play()"/>
+    <input type="button" value="HARD" id="PLAY3" onclick="set3(),play()"/>
+    </div>
+    <div id="game">
 	<canvas></canvas>
+    </div>
 <script type="text/javascript" src="canon.js"></script>
 </body>
 </html>

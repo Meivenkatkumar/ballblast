@@ -1,4 +1,43 @@
 canvas{
-	border:10px solid red;
-	margin-left: 33.3333%
+	margin: center;
+	margin-top: 10%;
+}
+#cover{
+   display:block;
+   border-radius: 10px;
+	background-color: rgba(182, 155, 76,0.4);
+	width: 500px;
+	padding-top:25px;
+	text-align: center;
+	margin: auto;
+	margin-top: 15%;
+	font-weight: bold;
+	font-size: 30px;
+	height: 300px;
+}
+p{
+	font-family: "courier", cursive, sans-serif;
+}
+#game{
+   display:none;
+}
+#moments{
+	text-align: center;
+	background-image: url(2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+input{
+	padding: auto;
+	font-size: 15px;
+	width: 125px;
+	height:30px;
+	border:2px solid black;
+	border-radius: 10px;
+	border: 2px solid black;
+	background-color: #ffffff;
+}
+input:hover{
+   background-color:rgb(133,94,66);
+   color: rgb(255,255,255);
 }
